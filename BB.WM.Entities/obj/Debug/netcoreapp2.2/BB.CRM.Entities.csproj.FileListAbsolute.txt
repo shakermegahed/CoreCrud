@@ -1,0 +1,12 @@
+D:\Clients\BBCRM\BB.WM.Entities\bin\Debug\netcoreapp2.2\BB.CRM.Entities.deps.json
+D:\Clients\BBCRM\BB.WM.Entities\bin\Debug\netcoreapp2.2\BB.CRM.Entities.dll
+D:\Clients\BBCRM\BB.WM.Entities\bin\Debug\netcoreapp2.2\BB.CRM.Entities.pdb
+D:\Clients\BBCRM\BB.WM.Entities\bin\Debug\netcoreapp2.2\BB.CRM.Core.dll
+D:\Clients\BBCRM\BB.WM.Entities\bin\Debug\netcoreapp2.2\BB.CRM.Core.pdb
+D:\Clients\BBCRM\BB.WM.Entities\obj\Debug\netcoreapp2.2\BB.CRM.Entities.csprojAssemblyReference.cache
+D:\Clients\BBCRM\BB.WM.Entities\obj\Debug\netcoreapp2.2\BB.CRM.Entities.csproj.CoreCompileInputs.cache
+D:\Clients\BBCRM\BB.WM.Entities\obj\Debug\netcoreapp2.2\BB.CRM.Entities.AssemblyInfoInputs.cache
+D:\Clients\BBCRM\BB.WM.Entities\obj\Debug\netcoreapp2.2\BB.CRM.Entities.AssemblyInfo.cs
+D:\Clients\BBCRM\BB.WM.Entities\obj\Debug\netcoreapp2.2\BB.CRM.Entities.csproj.CopyComplete
+D:\Clients\BBCRM\BB.WM.Entities\obj\Debug\netcoreapp2.2\BB.CRM.Entities.dll
+D:\Clients\BBCRM\BB.WM.Entities\obj\Debug\netcoreapp2.2\BB.CRM.Entities.pdb

@@ -1,0 +1,9 @@
+D:\Clients\BBCRM\BB.WM.Core\bin\Debug\netcoreapp2.2\BB.CRM.Core.deps.json
+D:\Clients\BBCRM\BB.WM.Core\bin\Debug\netcoreapp2.2\BB.CRM.Core.dll
+D:\Clients\BBCRM\BB.WM.Core\bin\Debug\netcoreapp2.2\BB.CRM.Core.pdb
+D:\Clients\BBCRM\BB.WM.Core\obj\Debug\netcoreapp2.2\BB.CRM.Core.csprojAssemblyReference.cache
+D:\Clients\BBCRM\BB.WM.Core\obj\Debug\netcoreapp2.2\BB.CRM.Core.csproj.CoreCompileInputs.cache
+D:\Clients\BBCRM\BB.WM.Core\obj\Debug\netcoreapp2.2\BB.CRM.Core.AssemblyInfoInputs.cache
+D:\Clients\BBCRM\BB.WM.Core\obj\Debug\netcoreapp2.2\BB.CRM.Core.AssemblyInfo.cs
+D:\Clients\BBCRM\BB.WM.Core\obj\Debug\netcoreapp2.2\BB.CRM.Core.dll
+D:\Clients\BBCRM\BB.WM.Core\obj\Debug\netcoreapp2.2\BB.CRM.Core.pdb

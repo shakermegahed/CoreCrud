@@ -1,0 +1,16 @@
+D:\Clients\BBCRM\BB.WM.Identity\bin\Debug\netcoreapp2.2\BB.CRM.Identity.deps.json
+D:\Clients\BBCRM\BB.WM.Identity\bin\Debug\netcoreapp2.2\BB.CRM.Identity.dll
+D:\Clients\BBCRM\BB.WM.Identity\bin\Debug\netcoreapp2.2\BB.CRM.Identity.pdb
+D:\Clients\BBCRM\BB.WM.Identity\bin\Debug\netcoreapp2.2\BB.CRM.Core.dll
+D:\Clients\BBCRM\BB.WM.Identity\bin\Debug\netcoreapp2.2\BB.CRM.Entities.dll
+D:\Clients\BBCRM\BB.WM.Identity\bin\Debug\netcoreapp2.2\BB.CRM.Repository.dll
+D:\Clients\BBCRM\BB.WM.Identity\bin\Debug\netcoreapp2.2\BB.CRM.Entities.pdb
+D:\Clients\BBCRM\BB.WM.Identity\bin\Debug\netcoreapp2.2\BB.CRM.Repository.pdb
+D:\Clients\BBCRM\BB.WM.Identity\bin\Debug\netcoreapp2.2\BB.CRM.Core.pdb
+D:\Clients\BBCRM\BB.WM.Identity\obj\Debug\netcoreapp2.2\BB.CRM.Identity.csprojAssemblyReference.cache
+D:\Clients\BBCRM\BB.WM.Identity\obj\Debug\netcoreapp2.2\BB.CRM.Identity.csproj.CoreCompileInputs.cache
+D:\Clients\BBCRM\BB.WM.Identity\obj\Debug\netcoreapp2.2\BB.CRM.Identity.AssemblyInfoInputs.cache
+D:\Clients\BBCRM\BB.WM.Identity\obj\Debug\netcoreapp2.2\BB.CRM.Identity.AssemblyInfo.cs
+D:\Clients\BBCRM\BB.WM.Identity\obj\Debug\netcoreapp2.2\BB.CRM.Identity.csproj.CopyComplete
+D:\Clients\BBCRM\BB.WM.Identity\obj\Debug\netcoreapp2.2\BB.CRM.Identity.dll
+D:\Clients\BBCRM\BB.WM.Identity\obj\Debug\netcoreapp2.2\BB.CRM.Identity.pdb

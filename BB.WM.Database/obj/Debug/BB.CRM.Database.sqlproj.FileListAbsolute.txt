@@ -1,0 +1,10 @@
+D:\Clients\BBCRM\BB.WM.Database\bin\Debug\BB.CRM.Database.dacpac
+D:\Clients\BBCRM\BB.WM.Database\bin\Debug\BB.WM.Database.dll
+D:\Clients\BBCRM\BB.WM.Database\bin\Debug\BB.WM.Database.pdb
+D:\Clients\BBCRM\BB.WM.Database\obj\Debug\Model.xml
+D:\Clients\BBCRM\BB.WM.Database\obj\Debug\refactor.xml
+D:\Clients\BBCRM\BB.WM.Database\obj\Debug\postdeploy.sql
+D:\Clients\BBCRM\BB.WM.Database\obj\Debug\predeploy.sql
+D:\Clients\BBCRM\BB.WM.Database\obj\Debug\BB.WM.Database.dll
+D:\Clients\BBCRM\BB.WM.Database\obj\Debug\BB.WM.Database.pdb
+D:\Clients\BBCRM\BB.WM.Database\obj\Debug\BB.CRM.Database.sqlprojAssemblyReference.cache

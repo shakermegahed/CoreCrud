@@ -1,0 +1,16 @@
+D:\Clients\BBCRM\BB.WM.Repository\bin\Debug\netcoreapp2.2\BB.CRM.Repository.deps.json
+D:\Clients\BBCRM\BB.WM.Repository\bin\Debug\netcoreapp2.2\BB.CRM.Repository.runtimeconfig.json
+D:\Clients\BBCRM\BB.WM.Repository\bin\Debug\netcoreapp2.2\BB.CRM.Repository.runtimeconfig.dev.json
+D:\Clients\BBCRM\BB.WM.Repository\bin\Debug\netcoreapp2.2\BB.CRM.Repository.dll
+D:\Clients\BBCRM\BB.WM.Repository\bin\Debug\netcoreapp2.2\BB.CRM.Repository.pdb
+D:\Clients\BBCRM\BB.WM.Repository\bin\Debug\netcoreapp2.2\BB.CRM.Core.dll
+D:\Clients\BBCRM\BB.WM.Repository\bin\Debug\netcoreapp2.2\BB.CRM.Entities.dll
+D:\Clients\BBCRM\BB.WM.Repository\bin\Debug\netcoreapp2.2\BB.CRM.Entities.pdb
+D:\Clients\BBCRM\BB.WM.Repository\bin\Debug\netcoreapp2.2\BB.CRM.Core.pdb
+D:\Clients\BBCRM\BB.WM.Repository\obj\Debug\netcoreapp2.2\BB.CRM.Repository.csprojAssemblyReference.cache
+D:\Clients\BBCRM\BB.WM.Repository\obj\Debug\netcoreapp2.2\BB.CRM.Repository.csproj.CoreCompileInputs.cache
+D:\Clients\BBCRM\BB.WM.Repository\obj\Debug\netcoreapp2.2\BB.CRM.Repository.AssemblyInfoInputs.cache
+D:\Clients\BBCRM\BB.WM.Repository\obj\Debug\netcoreapp2.2\BB.CRM.Repository.AssemblyInfo.cs
+D:\Clients\BBCRM\BB.WM.Repository\obj\Debug\netcoreapp2.2\BB.CRM.Repository.csproj.CopyComplete
+D:\Clients\BBCRM\BB.WM.Repository\obj\Debug\netcoreapp2.2\BB.CRM.Repository.dll
+D:\Clients\BBCRM\BB.WM.Repository\obj\Debug\netcoreapp2.2\BB.CRM.Repository.pdb

@@ -1,0 +1,16 @@
+D:\Clients\dryve\BB.WM.ContainerBuilder\bin\Debug\netcoreapp2.2\dryve.ContainerBuilder.deps.json
+D:\Clients\dryve\BB.WM.ContainerBuilder\bin\Debug\netcoreapp2.2\dryve.ContainerBuilder.dll
+D:\Clients\dryve\BB.WM.ContainerBuilder\bin\Debug\netcoreapp2.2\dryve.ContainerBuilder.pdb
+D:\Clients\dryve\BB.WM.ContainerBuilder\bin\Debug\netcoreapp2.2\dryve.Domain.dll
+D:\Clients\dryve\BB.WM.ContainerBuilder\bin\Debug\netcoreapp2.2\dryve.Entities.dll
+D:\Clients\dryve\BB.WM.ContainerBuilder\bin\Debug\netcoreapp2.2\dryve.Repository.dll
+D:\Clients\dryve\BB.WM.ContainerBuilder\bin\Debug\netcoreapp2.2\dryve.Domain.pdb
+D:\Clients\dryve\BB.WM.ContainerBuilder\bin\Debug\netcoreapp2.2\dryve.Repository.pdb
+D:\Clients\dryve\BB.WM.ContainerBuilder\bin\Debug\netcoreapp2.2\dryve.Entities.pdb
+D:\Clients\dryve\BB.WM.ContainerBuilder\obj\Debug\netcoreapp2.2\dryve.ContainerBuilder.csprojAssemblyReference.cache
+D:\Clients\dryve\BB.WM.ContainerBuilder\obj\Debug\netcoreapp2.2\dryve.ContainerBuilder.csproj.CoreCompileInputs.cache
+D:\Clients\dryve\BB.WM.ContainerBuilder\obj\Debug\netcoreapp2.2\dryve.ContainerBuilder.AssemblyInfoInputs.cache
+D:\Clients\dryve\BB.WM.ContainerBuilder\obj\Debug\netcoreapp2.2\dryve.ContainerBuilder.AssemblyInfo.cs
+D:\Clients\dryve\BB.WM.ContainerBuilder\obj\Debug\netcoreapp2.2\dryve.ContainerBuilder.csproj.CopyComplete
+D:\Clients\dryve\BB.WM.ContainerBuilder\obj\Debug\netcoreapp2.2\dryve.ContainerBuilder.dll
+D:\Clients\dryve\BB.WM.ContainerBuilder\obj\Debug\netcoreapp2.2\dryve.ContainerBuilder.pdb

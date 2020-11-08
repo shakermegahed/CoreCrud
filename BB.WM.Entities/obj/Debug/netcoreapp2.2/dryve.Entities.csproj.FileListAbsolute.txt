@@ -1,0 +1,9 @@
+D:\Clients\dryve\BB.WM.Entities\bin\Debug\netcoreapp2.2\dryve.Entities.deps.json
+D:\Clients\dryve\BB.WM.Entities\bin\Debug\netcoreapp2.2\dryve.Entities.dll
+D:\Clients\dryve\BB.WM.Entities\bin\Debug\netcoreapp2.2\dryve.Entities.pdb
+D:\Clients\dryve\BB.WM.Entities\obj\Debug\netcoreapp2.2\dryve.Entities.csprojAssemblyReference.cache
+D:\Clients\dryve\BB.WM.Entities\obj\Debug\netcoreapp2.2\dryve.Entities.csproj.CoreCompileInputs.cache
+D:\Clients\dryve\BB.WM.Entities\obj\Debug\netcoreapp2.2\dryve.Entities.AssemblyInfoInputs.cache
+D:\Clients\dryve\BB.WM.Entities\obj\Debug\netcoreapp2.2\dryve.Entities.AssemblyInfo.cs
+D:\Clients\dryve\BB.WM.Entities\obj\Debug\netcoreapp2.2\dryve.Entities.dll
+D:\Clients\dryve\BB.WM.Entities\obj\Debug\netcoreapp2.2\dryve.Entities.pdb

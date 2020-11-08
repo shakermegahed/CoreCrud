@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    @*<link rel="icon" href="~/favicon.png" />*@
+    <title>@ViewData["Title"] - BB CRM</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="~/Templet/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/Templet/css/bootstrap-reset.css" rel="stylesheet">
+
+    <!--Animation css-->
+    <link href="~/Templet/css/animate.css" rel="stylesheet">
+    <!--Icon-fonts css-->
+    <link href="~/Templet/assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="~/Templet/assets/ionicon/css/ionicons.min.css" rel="stylesheet" />
+
+    <!-- Plugins css -->
+    <link href="~/Templet/assets/timepicker/bootstrap-datepicker.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="~/Templet/assets/bootstrap-wysihtml5/bootstrap-wysihtml5.css" />
+    <link href="~/Templet/assets/summernote/summernote.css" rel="stylesheet" />
+    <!-- Custom styles for this template -->
+    <link href="~/Templet/css/style.css" rel="stylesheet">
+    <link href="~/Templet/css/helper.css" rel="stylesheet">
+    <link href="~/Templet/css/style-responsive.css" rel="stylesheet" />
+    <link href="~/css/bootstrap-table.min.css" rel="stylesheet" />
+    <link href="~/Templet/assets/sweet-alert/sweet-alert.min.css" rel="stylesheet" />
+
+
+</head>
+<body>
+
+    <script src="~/Templet/js/jquery.js"></script>
+
+
+
+    <aside class="left-panel">
+        <!-- brand -->
+        <div class="logo">
+            <a class="logo-expanded">
+                <a asp-area="" asp-controller="Home" asp-action="Index">
+                    @*<img src="~/images/CRM/logo_200-50-04.png" class="img-responsive" alt="BB CRM " />*@
+                </a>
+            </a>
+        </div>
+        <!-- / brand -->
+        <!-- Navbar Start -->
+        <nav class="navigation">
+            <ul class="list-unstyled">
+                <li class="has-submenu">
+                    <a><i class="fa fa-wrench" title="Options"></i> <span class="nav-label">Manage</span></a>
+                    <ul class="list-unstyled">
+                        <li is-active-route asp-controller="Home"><a asp-controller="Home" asp-action="GetAll" title="home"><i style="padding-top: 2px;" class="fa fa-map-marker"></i><span class="nav-label">Home</span></a></li>
+                    </ul>
+                </li>
+
+
+            </ul>
+        </nav>
+
+    </aside>
+    <!--Main Content Start -->
+    <section class="content">
+
+        <!-- Header -->
+        <header class="top-head container-fluid">
+            <button type="button" class="navbar-toggle pull-left">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <!-- Right navbar -->
+            <ul class="list-inline navbar-right top-menu top-right-menu">
+                <li class="dropdown text-center">
+                    @*@await Html.PartialAsync("_LoginPartial")*@
+                </li>
+                <!-- user login dropdown end -->
+            </ul>
+            <!-- End right navbar -->
+        </header>
+        <!-- Header Ends -->
+        <!-- Page Content Start -->
+        <!-- ================== -->
+        <div class="wraper container-fluid">
+            @Html.BuildBreadcrumbNavigation()
+            @RenderBody()
+
+        </div>
+        <!-- Page Content Ends -->
+        <!-- ================== -->
+        <!-- Footer Start -->
+        <footer style="text-align: center;">
+            <p>Developed by - <a href="http://bebrand.tv/" target="_blank">Bebrand.tv</a></p>
+        </footer>
+        <!-- Footer Ends -->
+
+    </section>
+    <!-- Main Content Ends -->
+    @*@Html.Partial("_ConfirmationModal")
+        @Html.Partial("_AttachmentView")
+        @Html.Partial("_SignalrNotification")*@
+    @RenderSection("scripts", required: false)
+    <script src="~/Templet/js/bootstrap.min.js"></script>
+    <script>
+        window.paceOptions = {
+            ajax: false,
+            restartOnRequestAfter: false,
+        };
+    </script>
+
+    <script src="~/Templet/js/pace.min.js"></script>
+    @*<script src="~/lib/signalr/dist/browser/signalr.min.js"></script>*@
+    <script src="~/Templet/js/modernizr.min.js"></script>
+    <script src="~/Templet/js/wow.min.js"></script>
+    <script src="~/Templet/js/jquery.nicescroll.js" type="text/javascript"></script>
+    <script src="~/Templet/assets/toggles/toggles.min.js"></script>
+    <script src="~/Templet/assets/timepicker/bootstrap-timepicker.min.js"></script>
+    <script src="~/Templet/assets/timepicker/bootstrap-datepicker.js"></script>
+    <script src="~/Templet/assets/sweet-alert/sweet-alert.min.js"></script>
+    <script type="text/javascript" src="~/Templet/assets/bootstrap-wysihtml5/wysihtml5-0.3.0.js"></script>
+    <script type="text/javascript" src="~/Templet/assets/bootstrap-wysihtml5/bootstrap-wysihtml5.js"></script>
+    <script src="~/Templet/assets/summernote/summernote.min.js"></script>
+    <script src="~/Templet/js/jquery.app.js"></script>
+    <script src="~/js/moment.min.js"></script>
+    <script src="~/js/Ajax.js"></script>
+    <script src="~/js/bootstrap-table.min.js"></script>
+    
+    <script>
+        jQuery(document).ready(function () {
+            $(".navigation li.active").closest('li.has-submenu').addClass('active').siblings('li').removeClass('active');
+            $('.wysihtml5').wysihtml5();
+
+            $('.summernote').summernote({
+                height: 200,                 // set editor height
+
+                minHeight: null,             // set minimum height of editor
+                maxHeight: null,             // set maximum height of editor
+
+                focus: true                 // set focus to editable area after initializing summernote
+            });
+
+        });
+
+    </script>
+</body>
+</html>

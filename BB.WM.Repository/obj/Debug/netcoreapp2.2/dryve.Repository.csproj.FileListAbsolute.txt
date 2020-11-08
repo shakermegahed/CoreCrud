@@ -1,0 +1,14 @@
+D:\Clients\dryve\BB.WM.Repository\bin\Debug\netcoreapp2.2\dryve.Repository.deps.json
+D:\Clients\dryve\BB.WM.Repository\bin\Debug\netcoreapp2.2\dryve.Repository.runtimeconfig.json
+D:\Clients\dryve\BB.WM.Repository\bin\Debug\netcoreapp2.2\dryve.Repository.runtimeconfig.dev.json
+D:\Clients\dryve\BB.WM.Repository\bin\Debug\netcoreapp2.2\dryve.Repository.dll
+D:\Clients\dryve\BB.WM.Repository\bin\Debug\netcoreapp2.2\dryve.Repository.pdb
+D:\Clients\dryve\BB.WM.Repository\bin\Debug\netcoreapp2.2\dryve.Entities.dll
+D:\Clients\dryve\BB.WM.Repository\bin\Debug\netcoreapp2.2\dryve.Entities.pdb
+D:\Clients\dryve\BB.WM.Repository\obj\Debug\netcoreapp2.2\dryve.Repository.csprojAssemblyReference.cache
+D:\Clients\dryve\BB.WM.Repository\obj\Debug\netcoreapp2.2\dryve.Repository.csproj.CoreCompileInputs.cache
+D:\Clients\dryve\BB.WM.Repository\obj\Debug\netcoreapp2.2\dryve.Repository.AssemblyInfoInputs.cache
+D:\Clients\dryve\BB.WM.Repository\obj\Debug\netcoreapp2.2\dryve.Repository.AssemblyInfo.cs
+D:\Clients\dryve\BB.WM.Repository\obj\Debug\netcoreapp2.2\dryve.Repository.csproj.CopyComplete
+D:\Clients\dryve\BB.WM.Repository\obj\Debug\netcoreapp2.2\dryve.Repository.dll
+D:\Clients\dryve\BB.WM.Repository\obj\Debug\netcoreapp2.2\dryve.Repository.pdb

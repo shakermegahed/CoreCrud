@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Name>BB.CRM.Database</Name>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>4.1</ProjectVersion>
+    <ProjectGuid>{9966e35b-ff9b-4d92-b257-5b6769ad1709}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
+    <OutputType>Database</OutputType>
+    <RootPath>
+    </RootPath>
+    <RootNamespace>BB.WM.Database</RootNamespace>
+    <AssemblyName>BB.WM.Database</AssemblyName>
+    <ModelCollation>1033, CI</ModelCollation>
+    <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
+    <DeployToDatabase>True</DeployToDatabase>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetLanguage>CS</TargetLanguage>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SqlServerVerification>False</SqlServerVerification>
+    <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <!-- Default to the v11.0 targets path if the targets file for the current VS version is not found -->
+    <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
+    <VisualStudioVersion Condition="'$(SSDTExists)' == ''">11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Condition="'$(SQLDBExtensionsRefPath)' != ''" Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <ItemGroup>
+    <Folder Include="Properties" />
+    <Folder Include="Auth\" />
+    <Folder Include="Auth\Tables\" />
+    <Folder Include="Account\" />
+    <Folder Include="Account\Tables\" />
+    <Folder Include="Account\Stored Procedures\" />
+    <Folder Include="Security\" />
+    <Folder Include="dbo\" />
+    <Folder Include="dbo\Tables\" />
+    <Folder Include="Auth\Stored Procedures\" />
+    <Folder Include="dbo\Stored Procedures\" />
+    <Folder Include="Website\" />
+    <Folder Include="Website\Stored Procedures\" />
+    <Folder Include="Website\Tables\" />
+    <Folder Include="Travel\" />
+    <Folder Include="Travel\Tables\" />
+    <Folder Include="Travel\Stored Procedures\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ProjectToLocalDB.scmp" />
+    <None Include="LocalDBToProject.scmp" />
+    <None Include="ProjectToTestingDB.scmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Auth\Tables\AccountRole.sql" />
+    <Build Include="Auth\Tables\Role.sql" />
+    <Build Include="Auth\Tables\AccountClaim.sql" />
+    <Build Include="Account\Tables\Account.sql" />
+    <Build Include="Account\Stored Procedures\UpdateStatus.sql" />
+    <Build Include="Account\Stored Procedures\UpdatePasswordHashed.sql" />
+    <Build Include="Account\Stored Procedures\UpdateIsDelete.sql" />
+    <Build Include="Account\Stored Procedures\Update.sql" />
+    <Build Include="Account\Stored Procedures\Login.sql" />
+    <Build Include="Account\Stored Procedures\Insert.sql" />
+    <Build Include="Account\Stored Procedures\GetById.sql" />
+    <Build Include="Account\Stored Procedures\GetByEmail.sql" />
+    <Build Include="Account\Stored Procedures\EmailIsExists.sql" />
+    <Build Include="Account\Stored Procedures\Delete.sql" />
+    <Build Include="Account\Stored Procedures\GetByUserName.sql" />
+    <Build Include="Security\Auth.sql" />
+    <Build Include="Security\Account.sql" />
+    <Build Include="Account\Stored Procedures\GetByRoleName.sql" />
+    <Build Include="Auth\Tables\Feature.sql" />
+    <Build Include="Auth\Stored Procedures\FeatureUpdateIsDelete.sql" />
+    <Build Include="Auth\Stored Procedures\FeatureUpdate.sql" />
+    <Build Include="Auth\Stored Procedures\FeatureInsert.sql" />
+    <Build Include="Auth\Stored Procedures\FeatureGetAll.sql" />
+    <Build Include="Auth\Stored Procedures\FeatureGetById.sql" />
+    <Build Include="dbo\Tables\Place.sql" />
+    <Build Include="dbo\Tables\Country.sql" />
+    <Build Include="dbo\Stored Procedures\CountryUpdate.sql" />
+    <Build Include="dbo\Stored Procedures\CountryInsert.sql" />
+    <Build Include="dbo\Stored Procedures\CountryUpdateIsDelete.sql" />
+    <Build Include="dbo\Stored Procedures\CountryGetAll.sql" />
+    <Build Include="Auth\Tables\WebSiteFeature.sql" />
+    <Build Include="dbo\Tables\Form.sql" />
+    <Build Include="Seed.sql" />
+    <Build Include="Website\Stored Procedures\WebsiteUpdateTeam.sql" />
+    <Build Include="Security\Website.sql" />
+    <Build Include="Website\Tables\WebSite.sql" />
+    <Build Include="Website\Stored Procedures\WebsiteUpdateSocialMedia.sql" />
+    <Build Include="Website\Stored Procedures\WebsiteUpdateSlider.sql" />
+    <Build Include="Website\Stored Procedures\WebsiteUpdateIsDelete.sql" />
+    <Build Include="Website\Stored Procedures\WebsiteUpdateContactUs.sql" />
+    <Build Include="Website\Stored Procedures\WebsiteUpdateClients.sql" />
+    <Build Include="Website\Stored Procedures\WebsiteUpdateAboutUs.sql" />
+    <Build Include="Website\Stored Procedures\WebsiteUpdate.sql" />
+    <Build Include="Website\Stored Procedures\WebsiteInsert.sql" />
+    <Build Include="Website\Stored Procedures\WebsiteGetByOwner.sql" />
+    <Build Include="Website\Stored Procedures\WebsiteGetById.sql" />
+    <Build Include="Website\Stored Procedures\WebsiteGetByDomain.sql" />
+    <Build Include="Website\Stored Procedures\WebsiteGetAll.sql" />
+    <Build Include="Website\Stored Procedures\WebsiteUpdateCareers.sql" />
+    <Build Include="dbo\Stored Procedures\FormGetById.sql" />
+    <Build Include="dbo\Stored Procedures\FormInsert.sql" />
+    <Build Include="Auth\Stored Procedures\WebSiteFeatureInsert.sql" />
+    <Build Include="Auth\Stored Procedures\WebSiteFeatureDelete.sql" />
+    <Build Include="Website\Tables\Service.sql" />
+    <Build Include="Website\Stored Procedures\ServiceUpdate.sql" />
+    <Build Include="Website\Stored Procedures\ServiceInsert.sql" />
+    <Build Include="Website\Stored Procedures\ServiceGetByParentId.sql" />
+    <Build Include="Website\Stored Procedures\ServiceGetById.sql" />
+    <Build Include="Website\Tables\WebSitePlace.sql" />
+    <Build Include="Website\Stored Procedures\WebSitePlaceUpdateIsDelete.sql" />
+    <Build Include="Website\Stored Procedures\WebSitePlaceInsert.sql" />
+    <Build Include="Website\Stored Procedures\ServiceUpdateIsDelete.sql" />
+    <Build Include="dbo\Tables\Hotel.sql" />
+    <Build Include="dbo\Tables\Restaurant.sql" />
+    <Build Include="Website\Tables\WebSiteHotel.sql" />
+    <Build Include="Website\Tables\WebSiteRestaurant.sql" />
+    <Build Include="Website\Stored Procedures\WebSiteHotelInsert.sql" />
+    <Build Include="Website\Stored Procedures\WebSiteHotelUpdate.sql" />
+    <Build Include="Website\Stored Procedures\WebSiteHotelUpdateIsDelete.sql" />
+    <Build Include="Website\Stored Procedures\WebSiteRestaurantInsert.sql" />
+    <Build Include="Website\Stored Procedures\WebSiteRestaurantUpdate.sql" />
+    <Build Include="Website\Stored Procedures\WebSiteRestaurantUpdateIsDelete.sql" />
+    <Build Include="dbo\Stored Procedures\RestaurantUpdateIsDelete.sql" />
+    <Build Include="dbo\Stored Procedures\RestaurantUpdate.sql" />
+    <Build Include="dbo\Stored Procedures\RestaurantInsert.sql" />
+    <Build Include="dbo\Stored Procedures\RestaurantGetById.sql" />
+    <Build Include="dbo\Stored Procedures\RestaurantGetAll.sql" />
+    <Build Include="dbo\Stored Procedures\PlaceUpdateIsDelete.sql" />
+    <Build Include="dbo\Stored Procedures\PlaceUpdate.sql" />
+    <Build Include="dbo\Stored Procedures\PlaceInsert.sql" />
+    <Build Include="dbo\Stored Procedures\PlaceGetById.sql" />
+    <Build Include="dbo\Stored Procedures\PlaceGetAll.sql" />
+    <Build Include="dbo\Stored Procedures\HotelUpdateIsDelete.sql" />
+    <Build Include="dbo\Stored Procedures\HotelUpdate.sql" />
+    <Build Include="dbo\Stored Procedures\HotelInsert.sql" />
+    <Build Include="dbo\Stored Procedures\HotelGetById.sql" />
+    <Build Include="dbo\Stored Procedures\HotelGetAll.sql" />
+    <Build Include="dbo\Stored Procedures\CountryGetById.sql" />
+    <Build Include="dbo\Stored Procedures\FormGetByWebSiteId.sql" />
+    <Build Include="Website\Tables\Product.sql" />
+    <Build Include="Website\Tables\Category.sql" />
+    <Build Include="Website\Stored Procedures\CategoryUpdateIsDelete.sql" />
+    <Build Include="Website\Stored Procedures\CategoryUpdate.sql" />
+    <Build Include="Website\Stored Procedures\CategoryInsert.sql" />
+    <Build Include="Website\Stored Procedures\CategoryGetByParentId.sql" />
+    <Build Include="Website\Stored Procedures\CategoryGetById.sql" />
+    <Build Include="Website\Stored Procedures\ProductUpdateIsDelete.sql" />
+    <Build Include="Website\Stored Procedures\ProductUpdate.sql" />
+    <Build Include="Website\Stored Procedures\ProductInsert.sql" />
+    <Build Include="Website\Stored Procedures\ProductGetById.sql" />
+    <Build Include="Website\Stored Procedures\ProductGetByCategoryId.sql" />
+    <Build Include="Website\Stored Procedures\CategoryGetByWebSiteId.sql" />
+    <Build Include="Website\Stored Procedures\CategoryGetByWebSiteDomain.sql" />
+    <Build Include="Website\Stored Procedures\ServiceGetByWebSiteId.sql" />
+    <Build Include="Website\Stored Procedures\ServiceGetByWebSiteDomain.sql" />
+    <Build Include="Website\Tables\Brand.sql" />
+    <Build Include="Website\Stored Procedures\BrandUpdateIsDelete.sql" />
+    <Build Include="Website\Stored Procedures\BrandUpdate.sql" />
+    <Build Include="Website\Stored Procedures\BrandInsert.sql" />
+    <Build Include="Website\Stored Procedures\BrandGetByWebSiteId.sql" />
+    <Build Include="Website\Stored Procedures\BrandGetByWebSiteDomain.sql" />
+    <Build Include="Website\Stored Procedures\BrandGetById.sql" />
+    <Build Include="Website\Stored Procedures\BrandGetAll.sql" />
+    <Build Include="dbo\Stored Procedures\FileUploadInsert.sql" />
+    <Build Include="dbo\Stored Procedures\FileUploadUpdate.sql" />
+    <Build Include="dbo\Stored Procedures\FileUploadUpdateIsDelete.sql" />
+    <Build Include="dbo\Tables\FileUpload.sql" />
+    <Build Include="dbo\Stored Procedures\FileUploadGetById.sql" />
+    <Build Include="Website\Stored Procedures\WebSitePlaceUpdate.sql" />
+    <Build Include="Website\Tables\Brand.sql" />
+    <Build Include="Website\Stored Procedures\BrandUpdateIsDelete.sql" />
+    <Build Include="Website\Stored Procedures\BrandUpdate.sql" />
+    <Build Include="Website\Stored Procedures\BrandInsert.sql" />
+    <Build Include="Website\Stored Procedures\BrandGetByWebSiteId.sql" />
+    <Build Include="Website\Stored Procedures\BrandGetByWebSiteDomain.sql" />
+    <Build Include="Website\Stored Procedures\BrandGetById.sql" />
+    <Build Include="Website\Stored Procedures\BrandGetAll.sql" />
+    <Build Include="dbo\Stored Procedures\FileUploadGetByWebsiteId.sql" />
+    <Build Include="dbo\Stored Procedures\FileUploadDelete.sql" />
+    <Build Include="Website\Tables\Topic.sql" />
+    <Build Include="Website\Stored Procedures\TopicInsert.sql" />
+    <Build Include="Website\Stored Procedures\TopicUpdateIsDelete.sql" />
+    <Build Include="Website\Stored Procedures\TopicUpdate.sql" />
+    <Build Include="Website\Stored Procedures\TopicGetByTag.sql" />
+    <Build Include="Website\Stored Procedures\TopicGetByWebSiteId.sql" />
+    <Build Include="Website\Stored Procedures\TopicGetByWebSiteDomain.sql" />
+    <Build Include="Website\Stored Procedures\TopicGetById.sql" />
+    <Build Include="Website\Tables\FieldAttribute.sql" />
+    <Build Include="Website\Tables\Event.sql" />
+    <Build Include="Website\Stored Procedures\EventUpdateIsDelete.sql" />
+    <Build Include="Website\Stored Procedures\EventUpdate.sql" />
+    <Build Include="Website\Stored Procedures\EventInsert.sql" />
+    <Build Include="Website\Stored Procedures\EventGetByWebSiteId.sql" />
+    <Build Include="Website\Stored Procedures\EventGetByWebSiteDomain.sql" />
+    <Build Include="Website\Stored Procedures\EventGetById.sql" />
+    <Build Include="Website\Tables\Project.sql" />
+    <Build Include="Website\Stored Procedures\ProjectUpdate.sql" />
+    <Build Include="Website\Stored Procedures\ProjectInsert.sql" />
+    <Build Include="Website\Stored Procedures\ProjectGetByWebSiteId.sql" />
+    <Build Include="Website\Stored Procedures\ProjectGetByWebSiteDomain.sql" />
+    <Build Include="Website\Stored Procedures\ProjectGetById.sql" />
+    <Build Include="Website\Stored Procedures\WebSiteRestaurantGetByWebSite.sql" />
+    <Build Include="Website\Stored Procedures\WebSitePlaceGetByWebSite.sql" />
+    <Build Include="Website\Stored Procedures\WebSiteHotelGetByWebSite.sql" />
+    <Build Include="dbo\Tables\Destination.sql" />
+    <Build Include="dbo\Stored Procedures\DestinationUpdateIsDelete.sql" />
+    <Build Include="dbo\Stored Procedures\DestinationUpdate.sql" />
+    <Build Include="dbo\Stored Procedures\DestinationInsert.sql" />
+    <Build Include="dbo\Stored Procedures\DestinationGetById.sql" />
+    <Build Include="dbo\Stored Procedures\DestinationGetByCountryId.sql" />
+    <Build Include="dbo\Stored Procedures\DestinationGetAll.sql" />
+    <Build Include="Website\Tables\WebSiteDestination.sql" />
+    <Build Include="Website\Stored Procedures\WebSiteDestinationUpdateIsDelete.sql" />
+    <Build Include="Website\Stored Procedures\WebSiteDestinationUpdate.sql" />
+    <Build Include="Website\Stored Procedures\WebSiteDestinationInsert.sql" />
+    <Build Include="Website\Stored Procedures\WebSiteDestinationGetByWebSite.sql" />
+    <Build Include="dbo\Stored Procedures\RestaurantGetByDestinationId.sql" />
+    <Build Include="dbo\Stored Procedures\PlaceGetByDestinationId.sql" />
+    <Build Include="dbo\Stored Procedures\HotelGetByDestinationId.sql" />
+    <Build Include="Website\Stored Procedures\TripUpdate.sql" />
+    <Build Include="Website\Stored Procedures\TripInsert.sql" />
+    <Build Include="Website\Stored Procedures\TripGetByWebsite.sql" />
+    <Build Include="Website\Stored Procedures\TripGetById.sql" />
+    <Build Include="Website\Tables\Trip.sql" />
+    <Build Include="Website\Stored Procedures\TripUpdateIsDelete.sql" />
+    <Build Include="Website\Stored Procedures\WebsiteUpdateAboutList.sql" />
+    <Build Include="Travel\Tables\Entertainment.sql" />
+    <Build Include="Travel\Stored Procedures\EntertainmentGetByWebSite.sql" />
+    <Build Include="Travel\Stored Procedures\EntertainmentUpdateIsDelete.sql" />
+    <Build Include="Travel\Stored Procedures\EntertainmentUpdate.sql" />
+    <Build Include="Travel\Stored Procedures\EntertainmentInsert.sql" />
+    <Build Include="Security\Travel.sql" />
+    <Build Include="Security\Ecommerce.sql" />
+    <Build Include="Website\Stored Procedures\WebSiteDestinationGetById.sql" />
+    <Build Include="Website\Stored Procedures\WebSiteRestaurantGetById.sql" />
+    <Build Include="Website\Stored Procedures\WebSitePlaceGetId.sql" />
+    <Build Include="Website\Stored Procedures\WebSiteHotelGetById.sql" />
+    <Build Include="Travel\Stored Procedures\EntertainmentGetById.sql" />
+    <Build Include="Website\Stored Procedures\ProductGetByWebsite.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="BB.WM.Database.refactorlog" />
+  </ItemGroup>
+</Project>
